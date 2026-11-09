@@ -1,0 +1,24 @@
+@import "tailwindcss";
+@import "@fontsource-variable/bricolage-grotesque";
+@import "@fontsource-variable/inter";
+@import "@fontsource-variable/jetbrains-mono";
+
+@source ".";
+
+@theme {
+  --color-ink: #1a1530;
+  --color-violet: #5b3bf5;
+  --color-lime: #c6ff4d;
+  --color-lilac: #efeaff;
+  --color-stage: #1f1852;
+  --color-stage-soft: #2c2470;
+  --color-muted: #c9c2f5;
+
+  --font-sans: "Inter Variable", system-ui, sans-serif;
+  --font-display: "Bricolage Grotesque Variable", sans-serif;
+  --font-mono: "JetBrains Mono Variable", monospace;
+}
+
+body {
+  margin: 0;
+}
